@@ -1,8 +1,9 @@
 <html>
-   <head>
+<head>
  <meta charset="UTF-8">
-  <meta name="Kenji Cotton" content="calculator, basic math, math">
-    <link rel="stylesheet" href="css/calccolor.css">
+ <meta name="Kenji Cotton" content="calculator, basic math, it5236">
+ <title>Calculator</title>
+ <link rel="stylesheet" href="css/calccolor.css">
    <body>
       <form name="calc">
          <table>
@@ -38,5 +39,5 @@
          </table>
       </form>
    </body>
-   </head>
+</head>
 </html>
