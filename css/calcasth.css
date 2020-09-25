@@ -90,7 +90,7 @@ input:active {
 }
 
 .operator:hover {
-  background-color: #5f5f5f;
+  background-color: #767676;
   color: #FFFFFF;
   box-shadow: 0 4px #484848;
 }
@@ -111,6 +111,7 @@ input:active {
   float: left;
   display: block;
   background-color: #F297A0;
+  color: #767676;
   margin-bottom: 15px;
   box-shadow: 0 4px #CC7F86;
 }
@@ -129,6 +130,7 @@ input[name="doit"] {
   position: relative
 }
 input[name="doit"]:hover {
-  background-color: #ffa31a;
+  background-color: #ffac30;
+  color: #FFFFFF;
   box-shadow: 0 4px #e59217;
 }
