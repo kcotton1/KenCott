@@ -1,8 +1,8 @@
 <html>
-<head>
- <link rel="stylesheet" href="css/calccolor.css">
-  <body>
-      <form name="calc">
+   <head>
+    <link rel="stylesheet" href="css/calccolor.css">
+   <body>
+      <form name="cal">
          <table>
             <tr>
                <td colspan="4">
@@ -25,16 +25,16 @@
                <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
                <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
                <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
-               <td><input type="button" class="operator" name="multiply" value="x" onclick="calculator.display.value += '*'"></td>
+               <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
             </tr>
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calculator.display.value = ''"></td>
                <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
                <td><input type="button" name="enter" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
-               <td><input type="button" class="operator" name="divide" value="/" onclick="calculator.display.value += '/'"></td>
+               <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
             </tr>
          </table>
       </form>
-  </body>
-</head>
+   </body>
+   </head>
 </html>
