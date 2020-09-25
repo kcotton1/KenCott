@@ -30,12 +30,17 @@
                <td><input type="button" name="9" value="9" onclick="calc.display.value += '9'"></td>
                <td><input type="button" class="operator" name="times" value="x" onclick="calc.display.value += '*'"></td>
             </tr>
-            <tr>
-			
+            <tr>	
                <td><input type="button" name="squared" value="^2" onclick="calc.display.value += '**2'"></td>
                <td><input type="button" name="cubed" value="^3" onclick="calc.display.value += '**3'"></td>
-               <td><input type="button" name="tens" value="^10" onclick="calc.display.value += '**10'"></td>
+               <td><input type="button" name="toten" value="^10" onclick="calc.display.value += '**10'"></td>
                <td><input type="button" class="operator" name="power" value="x^y" onclick="calc.display.value += '**'"></td>
+            </tr>
+	    <tr>	
+               <td><input type="button" name="bigO" value=".0" onclick="calc.display.value += '.0'"></td>
+               <td><input type="button" name="bigduO" value=".00" onclick="calc.display.value += '.00'"></td>
+               <td><input type="button" name="bigtriO" value=".000" onclick="calc.display.value += '.000'"></td>
+               <td><input type="button" class="operator" name="decimal" value="." onclick="calc.display.value += '.'"></td>
             </tr>
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
