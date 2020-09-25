@@ -32,7 +32,7 @@
             </tr>
             <tr>
 			
-               <td><input type="button" name="squared" value="^2" onclick="calcr.display.value += '**2'"></td>
+               <td><input type="button" name="squared" value="^2" onclick="calc.display.value += '**2'"></td>
                <td><input type="button" name="cubed" value="^3" onclick="calc.display.value += '**3'"></td>
                <td><input type="button" name="tens" value="^10" onclick="calc.display.value += '**10'"></td>
                <td><input type="button" class="operator" name="power" value="x^y" onclick="calc.display.value += '**'"></td>
