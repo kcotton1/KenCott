@@ -2,7 +2,7 @@
    <head>
     <link rel="stylesheet" href="css/calccolor.css">
    <body>
-      <form name="cal">
+      <form name="calc">
          <table>
             <tr>
                <td colspan="4">
