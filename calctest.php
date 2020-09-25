@@ -1,5 +1,6 @@
 <html>
    <head>
+      <link rel="stylesheet" href="css/calcasth.css">
    <body>
       <form name="calculator">
          <table>
