@@ -1,5 +1,5 @@
 body {
-  background-color: #888;
+  background-color: #dbdbdb;
 }
 
 table {
@@ -19,7 +19,7 @@ input {
   left: 5px;
   top: 5px;
   border: 0;
-  color: #495069;
+  color: #808080;
   background-color: #fff;
   border-radius: 4px;
   width: 60px;
@@ -33,7 +33,7 @@ input {
 
 input:hover {
   border: 0 solid #000;
-  color: #495069;
+  color: #808080;
   background-color: #fff;
   border-radius: 4px;
   width: 60px;
@@ -41,7 +41,7 @@ input:hover {
   float: left;
   margin: 5px;
   font-size: 20px;
-  box-shadow: 0 4px #b0d2cf;
+  box-shadow: 0 4px #737373;
 }
 
 input:active {
@@ -85,13 +85,13 @@ input:active {
 }
 
 .operator {
-  background-color: #cee9ea;
+  background-color: #1b1b1b;
   position: relative;
 }
 
 .operator:hover {
-  background-color: #cee9ea;
-  box-shadow: 0 4px #b0d2cf;
+  background-color: #1b1b1b;
+  box-shadow: 0 4px #484848;
 }
 
 .operator:active {
