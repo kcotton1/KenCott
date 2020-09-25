@@ -1,5 +1,7 @@
 <html>
    <head>
+ <meta charset="UTF-8">
+  <meta name="Kenji Cotton" content="calculator, basic math, math">
     <link rel="stylesheet" href="css/calccolor.css">
    <body>
       <form name="calc">
