@@ -122,3 +122,12 @@ input:active {
   margin-bottom: 15px;
   box-shadow: none;
 }
+
+input[name="doit"] {
+  background-color: #ffa31a;
+  position: relative
+}
+input[name="doit"]:hover {
+  background-color: #ffa31a;
+  box-shadow: 0 4px #e59217;
+}
