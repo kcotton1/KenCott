@@ -130,7 +130,7 @@ input[name="doit"] {
   position: relative
 }
 input[name="doit"]:hover {
-  background-color: #ffac30;
+  background-color: #ffd18c;
   color: #FFFFFF;
   box-shadow: 0 4px #e59217;
 }
