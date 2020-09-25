@@ -31,6 +31,13 @@
                <td><input type="button" class="operator" name="times" value="x" onclick="calc.display.value += '*'"></td>
             </tr>
             <tr>
+			
+               <td><input type="button" name="squared" value="^2" onclick="calculator.display.value += '**2'"></td>
+               <td><input type="button" name="cubed" value="^3" onclick="calculator.display.value += '**3'"></td>
+               <td><input type="button" name="tens" value="^10" onclick="calculator.display.value += '**10'"></td>
+               <td><input type="button" class="operator" name="power" value="x^y" onclick="calculator.display.value += '**'"></td>
+            </tr>
+            <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
                <td><input type="button" name="0" value="0" onclick="calc.display.value += '0'"></td>
                <td><input type="button" name="enter" value="=" onclick="calc.display.value = eval(calc.display.value)"></td>
