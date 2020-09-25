@@ -1,5 +1,6 @@
 <html>
 <head>
+ <link rel="stylesheet" href="css/calccolor.css">
   <body>
       <form name="calc">
          <table>
