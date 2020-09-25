@@ -100,14 +100,14 @@ input:active {
   box-shadow: none;
 }
 
-#clear {
+input[name="clear"] {
   float: left;
   position: relative;
   display: block;
   background-color: #ff9fa8;
 }
 
-#clear:hover {
+input[name="clear"]:hover {
   float: left;
   display: block;
   background-color: #cc7f86;
@@ -116,7 +116,7 @@ input:active {
   box-shadow: 0 4px #CC7F86;
 }
 
-#clear:active {
+input[name="clear"]:active {
   float: left;
   top: 4px;
   display: block;
@@ -125,11 +125,11 @@ input:active {
   box-shadow: none;
 }
 
-input[name="doit"] {
+input[name="enter"] {
   background-color: #ffa31a;
   position: relative
 }
-input[name="doit"]:hover {
+input[name="enter"]:hover {
   background-color: #ffd18c;
   color: #FFFFFF;
   box-shadow: 0 4px #e59217;
