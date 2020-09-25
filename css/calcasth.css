@@ -4,7 +4,7 @@ body {
 
 table {
   margin: auto;
-  background-color: #222;
+  background-color: #292929;
   width: 295px;
   max-width: 295px;
   height: 325px;
@@ -90,7 +90,7 @@ input:active {
 }
 
 .operator:hover {
-  background-color: #1b1b1b;
+  background-color: #5f5f5f;
   box-shadow: 0 4px #484848;
 }
 
