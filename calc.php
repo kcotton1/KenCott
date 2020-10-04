@@ -4,6 +4,8 @@
  <meta name="Kenji Cotton" content="calculator, basic math, it5236">
  <title>Calculator</title>
  <link rel="stylesheet" href="css/calccolor.css">
+<script>
+</script>
    <body>
       <form name="calc">
          <table>
