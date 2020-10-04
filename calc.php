@@ -53,8 +53,8 @@
    </body>
 </head>
 </html>
-function calculate(x){
+def calculate(x):
 		try:
 		   eval(x)
 		except: 'Invalid Error'
-	}
+
