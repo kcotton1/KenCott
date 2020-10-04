@@ -40,12 +40,12 @@
                <td><input type="button" name="bigO" value=".0" onclick="calc.display.value += '.0'"></td>
                <td><input type="button" name="bigduO" value=".00" onclick="calc.display.value += '.00'"></td>
                <td><input type="button" name="bigtriO" value=".000" onclick="calc.display.value += '.000'"></td>
-               <td><input type="button" class="operator" name="decimal" value="." onclick="calc.display.value += '.'" if: float(calc.display.value) ==float(calc.display.value) else: calc.display.value = "Invalid Value"></td>
+               <td><input type="button" class="operator" name="decimal" value="." onclick="calc.display.value += '.'"></td>
             </tr>
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
                <td><input type="button" name="0" value="0" onclick="calc.display.value += '0'"></td>
-		<td><input type="button" name="enter" value="=" onclick="calc.display.value = eval(calc.display.value)"></td>
+		<td><input type="button" name="enter" value="=" onclick="calc.display.value = eval(calc.display.value)" if: float(calc.display.value) ==float(calc.display.value) else: calc.display.value = "Invalid Value"></td>
                <td><input type="button" class="operator" name="div" value="/" onclick="calc.display.value += '/'"></td>
             </tr>
          </table>
