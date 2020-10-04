@@ -59,7 +59,7 @@ function results(x) {
 	eval(x)	
   }
   catch() {
-    "Invalid Value";
+    return "Invalid Value"
   }
 }
 </script>
