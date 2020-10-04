@@ -50,7 +50,7 @@
             </tr>
          </table>
       </form>
-	if calc.display.value = int(calc.display.vaue)
+	if calc.display.value = int(calc.display.value)
 	   else: calc.display.value = "Invalid value"
    </body>
 </head>
