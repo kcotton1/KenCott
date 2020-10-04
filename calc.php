@@ -45,21 +45,11 @@
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
                <td><input type="button" name="0" value="0" onclick="calc.display.value += '0'"></td>
-		<td><input type="button" name="enter" value="=" onclick="calc.display.value = results(calc.display.value)"></td>
+		<td><input type="button" name="enter" value="=" onclick="calc.display.value = eval(calc.display.value)"></td>
                <td><input type="button" class="operator" name="div" value="/" onclick="calc.display.value += '/'"></td>
             </tr>
          </table>
       </form>
-<script>
-function results(x) {
-  try {
-	eval(x)	
-  }
-  catch(err) {
-    return "Invalid Value"
-  }
-}
-</script>
    </body>
 </head>
 </html>
