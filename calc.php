@@ -54,12 +54,12 @@
 </head>
 </html>
 <script>
-function results(calc.display.value) {
+function results(x) {
   try {
-	eval(calc.display.value)	
+	eval(x)	
   }
   catch() {
-    message.innerHTML = "Invalid Value";
+    "Invalid Value";
   }
 }
 </script>
