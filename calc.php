@@ -4,11 +4,6 @@
  <meta name="Kenji Cotton" content="calculator, basic math, it5236">
  <title>Calculator</title>
  <link rel="stylesheet" href="css/calccolor.css">
-	function calculate(x){
-		try:
-		   eval(x)
-		except: 'Invalid Error'
-	}
    <body>
       <form name="calc">
          <table>
@@ -58,3 +53,8 @@
    </body>
 </head>
 </html>
+function calculate(x){
+		try:
+		   eval(x)
+		except: 'Invalid Error'
+	}
