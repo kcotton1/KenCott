@@ -10,7 +10,7 @@ try {
   return eval(x);
 }
 catch(err) {
-	return "Test"
+	return "Invalid Value"
 }
 }
 </script>
