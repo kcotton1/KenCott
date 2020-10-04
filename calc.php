@@ -50,17 +50,18 @@
             </tr>
          </table>
       </form>
-   </body>
-</head>
-</html>
 <script>
 function results(x) {
   try {
 	eval(x)	
   }
-  catch() {
+  catch(err) {
     return "Invalid Value"
   }
 }
 </script>
+   </body>
+</head>
+</html>
+
 
