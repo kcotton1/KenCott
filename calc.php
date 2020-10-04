@@ -4,7 +4,7 @@
  <meta name="Kenji Cotton" content="calculator, basic math, it5236">
  <title>Calculator</title>
  <link rel="stylesheet" href="css/calccolor.css">
-	def calculate(x):
+	function calculate(x):
 		try:
 		   eval(x)
 		except: 'Invalid Error'
