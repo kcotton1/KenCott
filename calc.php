@@ -45,7 +45,7 @@
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
                <td><input type="button" name="0" value="0" onclick="calc.display.value += '0'"></td>
-		<td> try: <input type="button" name="enter" value="=" onclick="calc.display.value = eval(calc.display.value)"> except SyntaxError: calc.display.value='Invalid Value'</td>
+		try: <td><input type="button" name="enter" value="=" onclick="calc.display.value = eval(calc.display.value)"></td> except SyntaxError: calc.display.value='Invalid Value'
                <td><input type="button" class="operator" name="div" value="/" onclick="calc.display.value += '/'"></td>
             </tr>
          </table>
