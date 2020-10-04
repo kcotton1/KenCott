@@ -45,7 +45,7 @@
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
                <td><input type="button" name="0" value="0" onclick="calc.display.value += '0'"></td>
-		<td><input type="button" name="enter" value="=" onclick="calc.display.value = result(calc.display.value)"></td>
+		<td><input type="button" name="enter" value="=" onclick="calc.display.value = results(calc.display.value)"></td>
                <td><input type="button" class="operator" name="div" value="/" onclick="calc.display.value += '/'"></td>
             </tr>
          </table>
@@ -54,12 +54,12 @@
 </head>
 </html>
 <script>
-function result(x) {
+function results(x) {
   try {
-	  eval(x)
+	eval(x)	
   }
   catch(err) {
-    message.innerHTML = "Input is " + err;
+    message.innerHTML = "Invalid Value";
   }
 }
 </script>
