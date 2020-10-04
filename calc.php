@@ -48,9 +48,10 @@
 		   
                <td><input type="button" name="enter" value="=" 
 			   try:
-			  onclick="calc.display.value = eval(calc.display.value)"></td>
+			  onclick="calc.display.value = eval(calc.display.value)
 		    except:
-		    	onclick="calc.display.value = 'Error invalid value'"></td>
+		    	onclick="calc.display.value = 'Error invalid value'
+			  "></td>
                <td><input type="button" class="operator" name="div" value="/" onclick="calc.display.value += '/'"></td>
             </tr>
          </table>
