@@ -45,7 +45,7 @@
             <tr>
                <td><input type="button" name="clear" value="c" onclick="calc.display.value = ''"></td>
                <td><input type="button" name="0" value="0" onclick="calc.display.value += '0'"></td>
-		<td><input type="button" name="enter" value="=" try:onclick="calc.display.value = eval(calc.display.value)" except: calc.display.calue = "Invalid Value"></td>
+		<td><input type="button" name="enter" value="=" try: onclick="calc.display.value = eval(calc.display.value)" except: calc.display.calue = "Invalid Value"></td>
                <td><input type="button" class="operator" name="div" value="/" onclick="calc.display.value += '/'"></td>
             </tr>
          </table>
