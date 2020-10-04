@@ -50,8 +50,8 @@
             </tr>
          </table>
       </form>
-	if calc.display.value = int(calc.display.value)
-	   else: calc.display.value = "Invalid value"
+	try: calc.display.value = int(calc.display.value)
+	   except: calc.display.value = "Invalid value"
    </body>
 </head>
 </html>
