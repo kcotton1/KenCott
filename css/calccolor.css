@@ -136,5 +136,7 @@ input[name="enter"]:hover {
 }
 
 h1 {
-  text-align: center;
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
 }
