@@ -1,0 +1,920 @@
+{
+  "id": "13ff74fa-5011-48a8-ad93-56a4e201fb66",
+  "version": "2.0",
+  "name": "KenjiCottonSeleniumTests",
+  "url": "http://www.kcotton.xyz/KenCott/calc.php",
+  "tests": [{
+    "id": "76dd10ba-d5b4-4de3-b7af-d8b0f2354330",
+    "name": "Add",
+    "commands": [{
+      "id": "83d8c32f-595d-46d3-8d24-980322f78fcd",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "2e231b7a-7aed-4cc3-905f-92706d525af2",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "a0a02b2c-29b0-4386-8064-bc9ae9c2fca5",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "02ca5866-964d-4c5d-8f8c-da6056035768",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53194a2b-cb73-46f9-8ddf-4bbca2347608",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=plus",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da0e9677-d3f5-4f4c-9653-12800eaab352",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "c2c66e48-8ba4-4239-ad43-a83f2d9505c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=9",
+      "targets": [
+        ["name=9", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='9']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f13191-15d8-4afa-8a1b-04910b6766a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=plus",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "946b3bc9-29ca-4d0c-8bb6-a39e3147f0a4",
+      "comment": "",
+      "command": "click",
+      "target": "name=6",
+      "targets": [
+        ["name=6", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='6']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "854acd51-9933-4cad-bb17-ada2774b2d49",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=enter", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='enter']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd7c001-0a2a-4236-897d-ba43a6dceeb3",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0cd32f10-937d-4d7f-8a5b-91253eb21837",
+    "name": "Subtract",
+    "commands": [{
+      "id": "c1300d7a-7559-4f21-8687-baddcf85855d",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "c135bb19-a7a6-469f-933e-f768876531fc",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "55eb11ca-84c3-4c42-a7bc-a64f97508863",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "9afd57c5-d443-4578-920e-e6f2cf498512",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1887e99-cd3c-4e8a-9796-2e567e38358b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=minus",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaee8e0f-aa5a-4c34-a517-053742c13ff6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "73eefd82-2158-4147-8157-e5515df315b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=9",
+      "targets": [
+        ["name=9", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='9']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f0cac8-4972-4e62-9e54-056d91f7c4cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=minus",
+      "targets": [
+        ["name=minus", "name"],
+        ["css=tr:nth-child(3) .operator", "css:finder"],
+        ["xpath=//input[@name='minus']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2236a63-35f4-4164-b631-0fc167602c45",
+      "comment": "",
+      "command": "click",
+      "target": "name=6",
+      "targets": [
+        ["name=6", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='6']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4835b3f1-59f4-4497-82c9-fd752e02b792",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=enter", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='enter']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e44519-26b1-4d51-b54b-03f86bc9d672",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c4dfb928-1dda-48fd-a6ab-d590eafbd8c1",
+    "name": "Multiply",
+    "commands": [{
+      "id": "77c14e24-c06d-4614-aec4-12cd6c4bcd80",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "7614f3d1-5103-4ee3-ba43-69c041b3f1bb",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "567d1545-a059-4322-a41a-ae08737314e1",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "521293aa-e856-47ea-b50a-575c1379ecc5",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbed4f24-b16f-4e2f-8b7c-be05b6f9dd28",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=times",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720fcd5f-78e7-4a22-a4f3-a977e9bae057",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "e4a48878-f378-4b04-bb0c-70a7b7b7e731",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24c93602-c329-4c43-a525-d7b9d6b0c4d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=times",
+      "targets": [
+        ["name=times", "name"],
+        ["css=tr:nth-child(4) .operator", "css:finder"],
+        ["xpath=//input[@name='times']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee9bea1-2c5b-43f3-9416-099b60e965c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd5f0aa3-d441-4e2b-869c-b7d91fc513a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=enter", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='enter']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "604f025f-0272-4efb-a05a-45ca1867beec",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "905a27c2-fc94-4c3b-873b-0b05e2b64335",
+    "name": "Divide",
+    "commands": [{
+      "id": "2b6f4a03-7268-4cc1-8a2d-8d417bcb712d",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "23f44134-ef74-47e5-b606-aa2b3a8e8283",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "0fe35c27-f231-44c1-8022-1d77d4436b0e",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "f6910ace-046d-4f8d-9ec7-89d2a6a481c0",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a26174bb-0c4b-48e5-bcf3-89e368b1151f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=div",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e0d0958-2b07-40ca-bdcd-8cd7ce2496b0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "38285459-f7f0-4be7-98e2-a4d6d67e998c",
+      "comment": "",
+      "command": "click",
+      "target": "name=2",
+      "targets": [
+        ["name=2", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='2']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40bb015-daaf-40c6-bc58-08f1a217807a",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a42287-d37c-4a76-9e7d-9a60eb088de6",
+      "comment": "",
+      "command": "click",
+      "target": "name=div",
+      "targets": [
+        ["name=div", "name"],
+        ["css=tr:nth-child(7) .operator", "css:finder"],
+        ["xpath=//input[@name='div']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3221bbd6-2c28-4c80-9be6-fcf9fc548166",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a83fc9a-6f16-40ad-8e74-d0d76bcc351a",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc2e753b-ca5d-4987-ba70-16d32086b957",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b5b69359-ac40-418c-9613-bb508a04819c",
+    "name": "Power",
+    "commands": [{
+      "id": "8ffa8dc0-5ce3-41b3-9b9d-1b1a0a016351",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "ac316e8b-235b-468c-8b6c-3e231c2df03a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "0d382ea6-2b63-4054-902d-13869d464414",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "543c0b73-4f6b-43cd-b9ad-6a06585882bc",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef54e62c-5923-4ed7-9deb-f170d296880b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=power",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8cdedee-eff1-4ce7-b869-d2d14bb64f10",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "84987815-92a5-4d7c-8453-f859ba171ebd",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2852eceb-d74f-438b-9f2a-a58591473ff7",
+      "comment": "",
+      "command": "click",
+      "target": "name=power",
+      "targets": [
+        ["name=power", "name"],
+        ["css=tr:nth-child(5) .operator", "css:finder"],
+        ["xpath=//input[@name='power']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5015f082-7a2f-4496-a958-4a3ca334c755",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=2", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='2']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00187965-8227-464e-85d5-3e4c18a7e3ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=enter", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='enter']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7db75ca5-5bbd-4ee9-aeaa-f4042b4c7f0d",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6f8d1ff0-43df-4f1f-99a1-6300c68769df",
+    "name": "Negative1",
+    "commands": [{
+      "id": "10cf72dd-221d-48fa-bd2c-958cdbddb372",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "e25e1c89-2960-4d0b-a11d-a72b164fee97",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "a73be73b-0f02-40e0-a8e2-6cceb9e90520",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "6f45efa8-ad60-4a41-9e49-f8b5aff652c2",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f207659-4713-47cc-8807-ccb72c1ecab6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=power",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06340a7f-1e5d-4181-b920-203e40c1ea26",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "065fc9c2-a94c-4ac0-b26c-2ee32a85b129",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8da17400-0e3c-48ca-9ebe-5c01d34de964",
+      "comment": "",
+      "command": "click",
+      "target": "name=power",
+      "targets": [
+        ["name=power", "name"],
+        ["css=tr:nth-child(5) .operator", "css:finder"],
+        ["xpath=//input[@name='power']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9c6619c-654d-4021-aabc-ac29bb6e779c",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6badbf83-97ad-4b35-9e23-d443e1ea69c7",
+      "comment": "",
+      "command": "click",
+      "target": "name=minus",
+      "targets": [
+        ["name=minus", "name"],
+        ["css=tr:nth-child(3) .operator", "css:finder"],
+        ["xpath=//input[@name='minus']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed7c74a-cef3-403f-8dde-837a6a19fda2",
+      "comment": "",
+      "command": "click",
+      "target": "name=4",
+      "targets": [
+        ["name=4", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='4']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29095748-03c0-4cfd-a638-5e604626a26e",
+      "comment": "",
+      "command": "click",
+      "target": "name=0",
+      "targets": [
+        ["name=0", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='0']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cee7fec9-101b-4d63-92b8-add0a7992067",
+      "comment": "",
+      "command": "click",
+      "target": "name=0",
+      "targets": [
+        ["name=0", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='0']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dedf44e-24ac-4268-86ff-8b19796b8d88",
+      "comment": "",
+      "command": "click",
+      "target": "name=0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ce948de-7c77-4ca5-84d4-493e4c64d261",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=enter", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='enter']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1c898e0-2112-4561-8405-7b5f6503e7e0",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1ca58d89-8657-4e81-affd-38994fbcd120",
+    "name": "Negative2",
+    "commands": [{
+      "id": "d83947e1-7000-40e9-a9d6-b2dfe5a1e7c7",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "c9944d0d-017f-4d8c-9c98-e636ebfc2609",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://www.kcotton.xyz/KenCott/calc.php"
+    }, {
+      "id": "9da40d69-3ddc-442f-9ef0-07fdf8049aea",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Kenji Cotton"
+    }, {
+      "id": "13dc8fbb-6f70-4394-8616-77042ce4ed3d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ab64fae-0b0b-4fa2-b857-806f4d9ef40b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=minus",
+      "targets": [
+        ["name=plus", "name"],
+        ["css=tr:nth-child(2) .operator", "css:finder"],
+        ["xpath=//input[@name='plus']", "xpath:attributes"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2312e6d2-32bf-4e41-a616-714318347b5e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Calculator - Kenji Cotton')]", "xpath:innerText"]
+      ],
+      "value": "Calculator - Kenji Cotton"
+    }, {
+      "id": "4be97fd4-6646-4bfe-af8a-59300e5fdf0d",
+      "comment": "",
+      "command": "click",
+      "target": "name=5",
+      "targets": [
+        ["name=5", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='5']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e53eca0-e4bd-47de-8913-c530fb011f80",
+      "comment": "",
+      "command": "click",
+      "target": "name=minus",
+      "targets": [
+        ["name=minus", "name"],
+        ["css=tr:nth-child(3) .operator", "css:finder"],
+        ["xpath=//input[@name='minus']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d61688a9-75fe-4062-9c0c-cd1de91ab729",
+      "comment": "",
+      "command": "click",
+      "target": "name=9",
+      "targets": [
+        ["name=9", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='9']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7bb563-8cbd-422b-80ac-51394eda7755",
+      "comment": "",
+      "command": "click",
+      "target": "name=9",
+      "targets": [
+        ["name=9", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='9']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3861c37a-3143-49b8-a7f6-6dda8001e1e2",
+      "comment": "",
+      "command": "click",
+      "target": "name=9",
+      "targets": [
+        ["name=9", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='9']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e85f6c7-e5a8-4ef8-b741-4b3ca45cf779",
+      "comment": "",
+      "command": "click",
+      "target": "name=9",
+      "targets": [
+        ["name=9", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='9']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73806167-e394-4138-8737-f4bdeae21e28",
+      "comment": "",
+      "command": "click",
+      "target": "name=enter",
+      "targets": [
+        ["name=enter", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='enter']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c810f92c-88fc-45af-8f9b-fdf18d04ffcb",
+      "comment": "",
+      "command": "click",
+      "target": "name=clear",
+      "targets": [
+        ["name=clear", "name"],
+        ["css=tr:nth-child(7) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='clear']", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a459d72b-9bb6-4892-aac4-2f2eda89d16c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://www.kcotton.xyz/KenCott/calc.php"],
+  "plugins": []
+}

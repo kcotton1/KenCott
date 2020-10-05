@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "3d125f4f-6eda-4a8c-9cc0-cc365ac8ca47",
+		"name": "Kenji_Cotton_CalculatorTests",
+		"description": "Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Website GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.kcotton.xyz/KenCott/calc.php",
+					"protocol": "http",
+					"host": [
+						"www",
+						"kcotton",
+						"xyz"
+					],
+					"path": [
+						"KenCott",
+						"calc.php"
+					]
+				},
+				"description": "website GET"
+			},
+			"response": []
+		},
+		{
+			"name": "Status Code 200",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2f8b6974-cd4b-4a5e-af10-8d7688449a12",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.kcotton.xyz/KenCott/calc.php",
+					"protocol": "http",
+					"host": [
+						"www",
+						"kcotton",
+						"xyz"
+					],
+					"path": [
+						"KenCott",
+						"calc.php"
+					]
+				},
+				"description": "Status Code 200"
+			},
+			"response": []
+		},
+		{
+			"name": "Content Header Type",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f929d786-ecb5-4af3-a50b-bd535e34dc38",
+						"exec": [
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.kcotton.xyz/KenCott/calc.php",
+					"protocol": "http",
+					"host": [
+						"www",
+						"kcotton",
+						"xyz"
+					],
+					"path": [
+						"KenCott",
+						"calc.php"
+					]
+				},
+				"description": "Content Header Type"
+			},
+			"response": []
+		},
+		{
+			"name": "Title Element Present",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "deec489c-6282-4aab-95a0-1d9e6074beb0",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Calculator\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.kcotton.xyz/KenCott/calc.php",
+					"protocol": "http",
+					"host": [
+						"www",
+						"kcotton",
+						"xyz"
+					],
+					"path": [
+						"KenCott",
+						"calc.php"
+					]
+				},
+				"description": "Title Element"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
