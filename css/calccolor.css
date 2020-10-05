@@ -134,3 +134,7 @@ input[name="enter"]:hover {
   color: #FFFFFF;
   box-shadow: 0 4px #e59217;
 }
+
+h1 {
+  margin: 0 auto;
+}
