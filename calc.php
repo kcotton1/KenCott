@@ -14,8 +14,8 @@ catch(err) {
 }
 }
 </script>
-	<h1> Calculator </h1>
    <body>
+	   <h1> Calculator </h1>
       <form name="calc">
          <table>
             <tr>
