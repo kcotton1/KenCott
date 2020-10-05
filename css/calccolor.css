@@ -135,7 +135,7 @@ input[name="enter"]:hover {
   box-shadow: 0 4px #e59217;
 }
 
-h1 {
+h1[name="calcName"] {
        font-size: 20px; 
        color: red; 
        text-transform: uppercase;
