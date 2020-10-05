@@ -4,7 +4,7 @@
  <meta name="Kenji Cotton" content="calculator, basic math, it5236">
  <title>Calculator</title>
  <link rel="stylesheet" href="css/calccolor.css">
-<h1> Calculator </h1>
+<h1 name="calcName"> Calculator </h1>
 <script>
 function test(x) {
 try {
