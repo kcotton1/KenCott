@@ -14,6 +14,7 @@ catch(err) {
 }
 }
 </script>
+	<h1> Calculator </h1>
    <body>
       <form name="calc">
          <table>
